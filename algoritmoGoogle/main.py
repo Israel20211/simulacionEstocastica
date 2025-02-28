@@ -33,4 +33,13 @@ for key in adjacencyList:
 diccBonito = dict(sorted(diccBonito.items(), key =lambda item: item[1]))
 for i in range(1,10):
     print(list(diccBonito)[-i])
-
+#iniciso f
+#1
+#Matemáticas es que identifica con mucha facilidad estados de alta recurrencia, computacionales es su baja complejidad computacional
+#y aplicaciones al mundo real, puede ayudarnos a encontar cosas de alta demanda en casi cualquier contexto
+#2
+# alguien podría solo seguirse a si mismo para que cuando el algoritmo llegue a el, entre en un loop
+#3
+# para contrarrestar el primer punto, añadiría una restricción en donde si un usuario solo se sigue a si mismo, volvemos a reelegir aleatoriamente
+#4
+#añadiendo pesos no uniformes en cada una de las aristas
